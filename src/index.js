@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
         cell.innerText = json['results']["0"]["cell"]
         let dob = new Date(json['results']["0"]["dob"]["date"])
         dateOfBirth.innerText = `${dob.getMonth() + 1}/${dob.getDate()}/${dob.getFullYear()}`
-        console.log(dob)
       })
   }
 
