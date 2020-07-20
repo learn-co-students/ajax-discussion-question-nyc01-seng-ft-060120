@@ -23,6 +23,7 @@ fetch('https://randomuser.me/api/')
 
 console.log("Sup?")
 ```
+hello, sup?, hi
 
 ### Question 2
 
@@ -41,6 +42,9 @@ fetchData()
 
 What will be console logged when the following code is run? Why?
 
+promise {pending}
+because that's what fetch returns
+
 ```javascript
 function fetchData(){
         let data = fetch('https://randomuser.me/api/')
@@ -52,6 +56,11 @@ fetchData()
 ```
 
 What will be console logged when the following code is run? Why?
+
+{results: Array(1), info: {…}}
+info: {seed: "c0279166a82c6575", results: 1, page: 1, version: "1.3"}
+results: [{…}]
+__proto__: Object
 
 ```javascript
 function fetchData(){
@@ -66,6 +75,8 @@ fetchData()
 ### Question 3
 
 In your own words: what does asynchronous mean?
+
+it means that there's a block that doesn't stop other things from executing because it gives some promise that it will return something in the future - that the other code blocks don't have to wait for
 
 ### Question 4
 
