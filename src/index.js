@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   const button = document.querySelector('.btn');
   //console.log(button);
-  button.addEventListener('click', function(e) => {
-    
+  button.addEventListener('click', function(e) {
+
   })
 });
