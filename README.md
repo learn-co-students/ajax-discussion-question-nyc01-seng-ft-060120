@@ -24,6 +24,8 @@ fetch('https://randomuser.me/api/')
 console.log("Sup?")
 ```
 
+
+
 ### Question 2
 
 When fetchData is executed what will be console logged?
